@@ -1,0 +1,34 @@
+.seperat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding-bottom: 3%;
+  }
+  
+  div .left{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(83, 202, 245, 0.8) 0%, rgba(217, 217, 217, 0) 100%);
+    content: "";
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    left: 620px;
+  }
+  div .middle {
+    position: absolute;
+    left: 720px;
+  }
+  div .right {
+    background: radial-gradient(50% 50% at 50% 50%, rgba(83, 202, 245, 0.8) 0%, rgba(217, 217, 217, 0) 100%);
+    content: "";
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    left: 800px;
+  }
+  
+  .about-image {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+  }
